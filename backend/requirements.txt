@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-multipart
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
+pymupdf
+chromadb
+tiktoken
+redis
+python-dotenv
+prometheus-fastapi-instrumentator
