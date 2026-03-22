@@ -29,3 +29,17 @@ An end-to-end, containerized Retrieval-Augmented Generation (RAG) system that al
    ```bash
    git clone [https://github.com/HARSVARDH/conversational-research-agent.git](https://github.com/HARSVARDH/conversational-research-agent.git)
    cd conversational-research-agent
+2. Open the docker-compose.yml file and replace your_actual_openai_api_key_here with your real OpenAI API key.
+
+3. Build and spin up the microservices:
+   ```bash
+   docker-compose up --build
+
+4.Chat Interface: http://localhost:8501
+
+. FastAPI Docs (Swagger UI): http://localhost:8001/docs
+
+. Grafana Dashboards: http://localhost:3000 (Default login: admin/admin)
+
+. Prometheus Metrics: http://localhost:9090
+    
